@@ -8,7 +8,9 @@ foreach(target
         2.1-variables-data-types
         2.2-operators
         3.1-logic
-        3.2-loops)
+        3.2-loops
+        4.1-arrays
+        4.2-strings)
     add_executable(${target} ${target}.c)
 endforeach()
 
