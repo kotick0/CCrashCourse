@@ -10,7 +10,10 @@ foreach(target
         3.1-logic
         3.2-loops
         4.1-arrays
-        4.2-strings)
+        4.2-strings
+        5.1-functions
+        5.1.1-recursion
+)
     add_executable(${target} ${target}.c)
 endforeach()
 
