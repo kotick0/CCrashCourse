@@ -17,3 +17,4 @@ foreach(target
     add_executable(${target} ${target}.c)
 endforeach()
 
+add_executable(5.2-libraries-main 5.2-libraries-main.c 5.2-libraries.c)
