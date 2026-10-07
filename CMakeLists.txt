@@ -13,6 +13,7 @@ foreach(target
         4.2-strings
         5.1-functions
         5.1.1-recursion
+        6.1-pointers
 )
     add_executable(${target} ${target}.c)
 endforeach()
