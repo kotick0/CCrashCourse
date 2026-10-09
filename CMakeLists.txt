@@ -15,6 +15,7 @@ foreach(target
         5.1.1-recursion
         6.1-pointers
         6.2-structs
+        6.3-memory
 )
     add_executable(${target} ${target}.c)
 endforeach()
